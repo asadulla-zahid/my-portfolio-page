@@ -1,8 +1,5 @@
-import React from 'react';
-import PortfolioWebsite from './PortfolioWebsite';
+import PortfolioWebsite from './PortfolioWebsite.jsx'
 
-function App() {
-  return <PortfolioWebsite />;
+export default function App() {
+  return <PortfolioWebsite />
 }
-
-export default App;
